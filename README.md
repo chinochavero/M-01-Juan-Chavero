@@ -2,11 +2,11 @@ El proyecto se basa en el concepto de poder compartir e intercambiar vivencias q
 
 Para inicializar la aplicacion hay que ejecutar en la terminal:
 
-npm i (para instalar todos los paquetes necesarios para la ejecucion de la aplicacion) en cada carpeta, es decir que los modulos se instalan en las carpetas
-backend y frontend. Luego:
-npm run dev (tanto en el backend como en el frontend), es decir, tienen que estar los dos funcionando al mismo tiempo. Aclaracion: hay que tener instalado MongoDB.
-Detalles:
+- npm i (para instalar todos los paquetes necesarios para la ejecucion de la aplicacion) en cada carpeta, es decir que los modulos se instalan en las carpetas
+  backend y frontend. Luego:
+- npm run dev (tanto en el backend como en el frontend), es decir, tienen que estar los dos funcionando al mismo tiempo. Aclaracion: hay que tener instalado MongoDB.
 
-Cualquier persona puede acceder a ver (contenido de lectura) sin necesidad de estar registrado.
-Solo las personas registradas pueden acceder a los componentes de editar y eliminar.
-Solo el creador del comentario puede acceder a los botones para editar o eliminar su propio comentario (a traves de renderizado condicional)
+Detalles:
+- Cualquier persona puede acceder a ver (contenido de lectura) sin necesidad de estar registrado.
+- Solo las personas registradas pueden acceder a los componentes de editar y eliminar.
+- Solo el creador del comentario puede acceder a los botones para editar o eliminar su propio comentario (a traves de renderizado condicional)
