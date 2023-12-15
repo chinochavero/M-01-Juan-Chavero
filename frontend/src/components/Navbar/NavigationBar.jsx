@@ -13,8 +13,10 @@ const NavbarDos = () => {
         <div className="container-fluid">
         <nav className="navbar bg-body-tertiary" id="navbar-container">
         <div className="container-fluid">
-          <a className="navbar-brand">Posts</a>
-            <ul className="nav">
+          <Link to="/login" className="login">
+            Login
+          </Link>
+          <ul className="nav">
                 <li>
                   <Link title="Mis posts" className="nav-item" to="/post">
                    <HiHome />
